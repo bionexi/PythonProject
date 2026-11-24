@@ -7,5 +7,3 @@ class BasePage:
 
     def find(self, locator):
         return self.browser.find_element(*locator)
-
-    
